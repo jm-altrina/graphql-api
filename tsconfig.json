@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "ESNext", // Use ES Modules
+        "target": "ES2021",
+        "rootDir": "src",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
